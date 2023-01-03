@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-integration-test-poc"
+version = "0.1.0"
+description = ""
+authors = ["Manuel Eibl <manueleibl2@googlemail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+flask-marshmallow = "^0.14.0"
+flask-sqlalchemy = "^3.0.2"
+pytest = "^7.2.0"
+black = "^22.12.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
